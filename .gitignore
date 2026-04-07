@@ -1,0 +1,6 @@
+# Cloudflare Wrangler cache
+.wrangler
+
+# Legacy
+.netlify
+.vercel

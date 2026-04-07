@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://lambiamavang.com/sitemap.xml
+
+# Cho phép index tất cả ảnh sản phẩm
+User-agent: Googlebot-Image
+Allow: /
+
+# Block các file không cần thiết
+Disallow: /style.css
+
