@@ -8,7 +8,7 @@ Trang tài liệu này lưu trữ toàn bộ mục tiêu, cấu trúc kỹ thu�
 - **Tên dự án:** Bìa Mạ Vàng Anh Đức
 - **Tên miền hoạt động:** `https://lambiamavang.com`
 - **Mục tiêu Kinh doanh:** Xây dựng một Landing Page chuyên cung cấp dịch vụ in ấn bìa mạ vàng chất lượng cao (Luận văn tốt nghiệp, Bằng thạc sĩ, Gia phả, Hợp đồng...) nhắm vào khách hàng tại khu vực TP.HCM (nhất là sinh viên ĐH Bách Khoa, KHTN, UEH...).
-- **Giá trị cốt lõi / Điểm bán hàng duy nhất (USP):** "Lấy liền sau 30 phút", "Thiết kế chuẩn đại học", "Chất lượng mạ vàng cao cấp không bong tróc".
+- **Giá trị cốt lõi / Điểm bán hàng duy nhất (USP):** "Lấy liền sau 2h", "Thiết kế chuẩn đại học", "Chất lượng mạ vàng cao cấp không bong tróc".
 - **Mục tiêu Kỹ thuật:** Tạo ra một website tĩnh cực kỳ nhẹ (Load dưới 1s), chuẩn SEO 2026 tuyệt đối để tự cày Top Google mà không tốn chi phí chạy Ads.
 
 ## 🛠 2. Công Nghệ Sử Dụng (Tech Stack)
@@ -26,7 +26,7 @@ Dự án được xây dựng với tư duy SEO Local (SEO theo khu vực địa
 - **Geo Meta Tags:** Khai báo toạ độ (`geo.position=10.8501;106.7714`) để làm trùm kết quả Local.
 - **Rich Snippets (Schema.org JSON-LD):** Được dệt sâu vào mã HTML:
   - `LocalBusiness`: Khai báo sđt, địa chỉ, giờ mở cửa.
-  - `Product` & `AggregateRating`: Hiện cấu trúc giá (60.000đ - 400.000đ) và 4.9 Sao trên mạng tìm kiếm Google.
+  - `Product` & `AggregateRating`: Hiện cấu trúc giá (40.000đ - 400.000đ) và 4.9 Sao trên mạng tìm kiếm Google.
   - `FAQPage`: Giải đáp câu hỏi thường gặp trực tiếp trên thanh tìm kiếm.
   - `BreadcrumbList`: Định vị rõ cấu trúc danh mục.
   - `Article`: 2 trang bài viết Blog vệ tinh hỗ trợ SEO ngách (`bia-ma-vang-la-gi.html`, `bang-gia-bia-ma-vang.html`).
