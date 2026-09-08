@@ -1,15 +1,17 @@
 ---
-description: Workflow tự động deploy (đưa website lên sóng)
+description: Workflow tự động deploy (đưa website lên sóng) bằng Cloudflare Pages
 ---
 // turbo-all
 
-Bước 1: Chạy lệnh Netlify CLI để đẩy source code lên Production.
+Bước 1: Chạy lệnh Wrangler CLI để đẩy source code lên Cloudflare Pages Production.
+(Lưu ý: Nếu token hết hạn, cần gõ `npx wrangler login` ở Terminal trước một lần).
 ```powershell
-npx netlify deploy --prod --dir=. --site=9a07713b-bb26-414b-9bb5-b0fb9a4fa6d4
+npx wrangler pages deploy . --project-name=biamavang --branch=production
 ```
 
 Bước 2: Kiểm tra deployment đã lên sóng chưa.
 ```powershell
-Invoke-WebRequest -Uri "https://lambiamavang.com" -Method Head -UseBasicParsing | Select-Object StatusCode, StatusDescription
+powershell -Command "(Invoke-WebRequest -Uri 'https://lambiamavang.com' -UseBasicParsing).Content.Contains('real_luanvan_cntt_dh_quocte.jpg')"
 ```
+
 
